@@ -274,3 +274,102 @@
                 margin-bottom: 1rem;
             }
         }
+      /* Estilos adicionais para as novas seções */
+        .highlight-box {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border-left: 4px solid #3498db;
+        }
+        
+        .service-explanation {
+            margin-top: 2rem;
+        }
+        
+        .advantages-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .advantage-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        
+        .advantage-icon {
+            font-size: 1.5rem;
+            background: #3498db;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .services {
+            padding: 4rem 0;
+            background: white;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .service-card ul {
+            text-align: left;
+            margin-top: 1rem;
+        }
+        
+        .service-card li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .testimonial {
+            background: #3498db;
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+            text-align: center;
+        }
+        
+        .testimonial blockquote {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .guarantee {
+            background: #e8f5e8;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        
+        .disclaimer {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 1rem;
+        }
