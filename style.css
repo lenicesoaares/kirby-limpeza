@@ -616,3 +616,20 @@ footer {
         margin: 0 auto;
     }
 }
+
+
+     .comparison-section {
+            margin-bottom: 4rem;
+        }
+        
+        .comparison-section h3 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+        }
+        
+        .comparison-section:not(:last-child) {
+            padding-bottom: 3rem;
+            border-bottom: 2px solid #f1f8ff;
+        }
