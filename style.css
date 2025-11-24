@@ -633,3 +633,35 @@ footer {
             padding-bottom: 3rem;
             border-bottom: 2px solid #f1f8ff;
         }
+
+/* CORREÇÃO PARA OS CARDS FICAREM CENTRALIZADOS */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+}
+
+/* Para tablets */
+@media (max-width: 1024px) {
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Para mobile */
+@media (max-width: 768px) {
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Garante que os cards tenham tamanho consistente */
+.benefit-card {
+    width: 100%;
+    max-width: 350px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
