@@ -408,12 +408,6 @@ footer {
     color: #2c3e50;
 }
 
-.special-offer {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 3rem 0;
-    text-align: center;
-}
 
 .countdown {
     display: flex;
@@ -446,25 +440,6 @@ footer {
     margin-top: 2rem;
 }
 
-.contact-form {
-    background: #f8f9fa;
-    padding: 2rem;
-    border-radius: 8px;
-}
-
-.contact-form input,
-.contact-form select {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-.contact-form button {
-    width: 100%;
-}
 
 /* Estilos antigos adicionais (mantidos para compatibilidade) */
 .highlight-box {
