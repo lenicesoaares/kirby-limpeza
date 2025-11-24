@@ -23,9 +23,4 @@ Site institucional desenvolvido para comercialização de aspiradores Kirby prof
 - **WhatsApp:** +351 936 059 112
 - **Área:** Lisboa e todo Portugal
 
-## 📁 Estrutura
-kirby-limpeza/
-├── index.html          # Página principal
-├── style.css           # Estilos
-├── script.js           # Interatividade
-└── README.md          # Documentação
+
