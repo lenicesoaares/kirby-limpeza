@@ -123,32 +123,42 @@
     </section>
 
         <!-- Seção de video Demonstração -->
-    <section id="demonstracao" class="video-demo">
-        <div class="container">
-            <h2 class="section-title">Veja o Kirby em Ação!</h2>
-            <p class="video-description">Assista a esta demonstração completa e descubra como o Kirby transforma a limpeza da sua casa</p>
-            
-            <div class="video-container">
+            <section id="demonstracao" class="video-demo">
+            <div class="container">
+                <h2 class="section-title">Veja o Kirby em Ação!</h2>
+                <p class="video-description">Assista a esta demonstração completa e descubra como o Kirby transforma a limpeza da sua casa</p>
                 
-                <div class="video-wrapper">
-                    <video 
-                        controls 
-                        autoplay 
-                        muted 
-                        playsinline
-                        class="kirby-video"
-                    >
-                        <source src="kirby-demo.MOV" type="video/mp4">
-                        <source src="kirby-demo.mp4" type="video/mp4">
-                        Seu navegador não suporta o elemento de vídeo. 
-                        Baixe o vídeo <a href="kirby-demo.MOV">aqui</a>.
-                    </video>
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <!-- VÍDEO MP4 (recomendado para GitHub Pages) -->
+                        <video 
+                            controls 
+                            autoplay 
+                            muted 
+                            playsinline
+                            class="kirby-video"
+                            preload="metadata"
+                        >
+                            <!-- MP4 PRIMEIRO (formato recomendado) -->
+                            <source src="kirby-demo.mp4" type="video/mp4">
+                            <!-- MOV como fallback -->
+                            <source src="kirby-demo.MOV" type="video/quicktime">
+                            
+                            <!-- Mensagem de fallback -->
+                            <div style="padding: 2rem; text-align: center; color: #666;">
+                                <p>Seu navegador não suporta o vídeo.</p>
+                                <p>
+                                    <a href="kirby-demo.mp4" class="btn" style="display: inline-block; margin-top: 1rem;">
+                                        📥 Baixar Vídeo Demonstrativo
+                                    </a>
+                                </p>
+                            </div>
+                        </video>
+                    </div>
                     
-                </div>
-                
-                <div class="video-features">
-                    <h3>O que você verá neste vídeo:</h3>
-                    <div class="features-grid">
+                    <div class="video-features">
+                        <h3>O que você verá neste vídeo:</h3>
+                        <div class="features-grid">
                         <div class="video-feature">
                             <span class="feature-badge">▶️</span>
                             <p><strong>Limpeza Profunda</strong> de diferentes superfícies</p>
